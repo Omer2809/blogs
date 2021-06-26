@@ -32,6 +32,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
             <img
               src={clockIcon}
               style={{ marginLeft: 6, marginRight: 5, height: 24 }}
+              alt="a clock for reading time"
             />
             {" " + readingTime}
           </p>
