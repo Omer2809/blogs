@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Omer Blogs`,
     author: {
-      name: `Mohd Omer`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mohammed Omer`,
+      summary: `who is an avid learner and loves to create things that live on internet.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://omerblogs.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mohdomer_28`,
     },
   },
   plugins: [
@@ -46,7 +46,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-        ],
+          `gatsby-remark-reading-time`        ],
       },
     },
     `gatsby-transformer-sharp`,
